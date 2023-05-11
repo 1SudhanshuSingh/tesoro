@@ -1,0 +1,13 @@
+.footerContainer {
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .icons {
+    font-size: 2rem;
+    display: block;
+    margin: 1rem auto;
+  }
+}

@@ -1,0 +1,27 @@
+.category {
+  margin: 2rem 0;
+  background-color: #000;
+  border-radius: 10px;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+    background-color: #fff;
+    color: #000;
+  }
+  span {
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+}
+.swiperContainer{
+  height: auto;
+}
+

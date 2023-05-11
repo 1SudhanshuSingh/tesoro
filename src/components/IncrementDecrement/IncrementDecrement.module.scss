@@ -1,0 +1,21 @@
+.incrementDecrement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    background-color: #212529;
+    color: white;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      transition: 0.5s;
+      opacity: 0.8;
+    }
+  }
+  span {
+    color: black;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #212529;
+  }
+}
